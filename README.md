@@ -6,7 +6,7 @@
 ![](header.png)
 
 ## Sistema de control 
- Empleando un puente H para controlar el motor DC con la pico y el potenciometro como retroalimentación, la Teoría de control nos permite acomodar el valor ADC asociado al potenciometro que a su vez esta asociado al motor
+ Empleando un puente H para controlar el motor DC con la pico y el potenciometro como retroalimentación, la Teoría de control nos permite acomodar el valor ADC asociado al potenciometro que a su vez esta asociado al motor para completar el lazo cerrado. 
 ## Integrantes
 
 * Juan Cruz Isola
