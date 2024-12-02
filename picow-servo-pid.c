@@ -37,7 +37,7 @@ int main()
         adc = adc_read();
         float error = (float)(desired_angle - adc);
         float derivative = (error - previous_error) / dt;
-        float control_signal = (K_p * error); // + (K_i * integral_error) + (K_d * derivative);
+        float control_signal = (K_p * error) + (K_i * integral_error) + (K_d * derivative);
         integral_error += error * dt;
         if (integral_error > full_duty)
             integral_error = full_duty;
